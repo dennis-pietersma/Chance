@@ -5,21 +5,9 @@
 	xmlns:h="http://java.sun.com/jsf/html">
 
 <h:head></h:head>
-<h:body>
-	<div id="page">
-		<div id="header">
-			<ui:include src="commonHeader.xhtml" />
-		</div>
-
-		<div id="content">
-			<ui:insert name="content">
-			</ui:insert>
-		</div>
-
-		<div id="footer">
-			<ui:include src="commonFooter.xhtml" />
-		</div>
-	</div>
-
-</h:body>
+<body>
+	<ui:composition>
+		<h1>This is default footer</h1>
+	</ui:composition>
+</body>
 </html>
